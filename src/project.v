@@ -22,7 +22,7 @@ module tt_um_halfadder_christ (
     assign uo_out[1]=ui_in[0]&ui_in[1];
   assign uio_out = 0;
   assign uio_oe  = 0;
-    assign u0_out[7:2]=6'b0;
+    assign uo_out[7:2]=6'b0;
 
   // List all unused inputs to prevent warnings
   wire _unused = &{ena, clk, rst_n, 1'b0};
